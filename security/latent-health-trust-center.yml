@@ -1,0 +1,28 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://security.latenthealth.com/
+url: https://security.latenthealth.com/
+platform: vanta
+certifications:
+- name: SOC 2
+  source: https://latenthealth.com/platform
+  evidence: 'Latent is SOC 2 and HIPAA, with the audit trail built into the work'
+- name: HIPAA
+  source: https://security.latenthealth.com/
+  evidence: HIPAA named on the Latent Trust Center
+evidence:
+- source: https://security.latenthealth.com/
+  keywords:
+  - hipaa
+  - trust center
+  - vanta
+- source: https://latenthealth.com/platform
+  keywords:
+  - soc 2
+  - hipaa
+  - audit trail
+notes: 'Trust center is a Vanta-hosted subdomain (security.latenthealth.com) whose
+  content is client-rendered; the certification list above is what could be confirmed
+  from the rendered page plus the company platform page. No SOC 2 report download,
+  ISO 27001, HITRUST, PCI DSS, or FedRAMP claim was found on the public surface.'

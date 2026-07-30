@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of https://latenthealth.com
+host: https://latenthealth.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+notes: 'No /.well-known/ discovery surface is published on the Latent Health web host.
+  Recorded as an honest negative result — no WellKnown or SecurityTxt pointer is wired
+  into apis.yml because nothing was found. latent.health 307-redirects to latenthealth.com;
+  no separate API host exists to probe.'

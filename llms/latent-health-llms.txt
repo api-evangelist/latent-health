@@ -1,0 +1,40 @@
+# Latent Health
+
+> Latent Health (branded "Latent") is an enterprise pharmacy intelligence company applying a clinical agentic engine to the medication-access workflow for hospital and health-system pharmacy teams. It is an enterprise platform sold to health systems and publishes no public API, developer portal, or SDKs.
+
+generated: 2026-07-19
+method: generated
+source: apis.yml + https://latenthealth.com (no provider-published /llms.txt; /llms.txt returned 404)
+
+## Platform
+
+The clinical agentic engine ingests patient charts and EHR data, claims, payer policies, and drug labels, and is described as chart-native and EHR-agnostic across Epic and Cerner. It operates across four workflow stages:
+
+- [Platform](https://latenthealth.com/platform): Identify (care-gap detection, eligibility screening, site-of-care routing), Access (prior authorization, clinical review, appeal generation, benefit routing, payer outreach), Capture (340B eligibility auditing, leakage analytics, financial dashboards), Engage (patient outreach, queue management, outcomes analytics).
+- [Partners](https://latenthealth.com/partners): Health-system and ecosystem partners.
+- [Customers](https://latenthealth.com/customers): Reported deployment across 50+ health systems covering 2M+ patients annually.
+
+## Developer surface
+
+There is no public API. As of 2026-07-19 the following are absent from the public surface: developer portal, API reference, OpenAPI/AsyncAPI specification, SDKs or client packages, CLI, MCP server, Postman collection, status page, changelog, GitHub organization, pricing page, sign-up or login, and any /.well-known/ discovery document. Integration with Latent is arranged through health-system contracting rather than self-service onboarding.
+
+- [Contact / Get a Demo](https://latenthealth.com/contact)
+
+## Security and compliance
+
+- [Trust Center](https://security.latenthealth.com/): Vanta-hosted trust center.
+- SOC 2 and HIPAA are stated on the platform page. No SOC 2 report download, ISO 27001, HITRUST, PCI DSS, or FedRAMP claim was found publicly.
+- No security.txt, published vulnerability disclosure policy, or bug bounty program was found.
+
+## Company
+
+- [About](https://latenthealth.com/about): Co-founded by Sriram Somasundaram and Rishabh Jain.
+- $80M Series A led by Spark Capital and Transformation Capital.
+- [Press](https://latenthealth.com/press)
+- [Blog](https://latenthealth.com/blog)
+- [Careers](https://latenthealth.com/careers)
+
+## Legal
+
+- [Terms of Service](https://latenthealth.com/terms-of-service)
+- [Privacy Policy](https://latenthealth.com/privacy-policy)
