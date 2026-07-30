@@ -1,23 +1,82 @@
 aid: latent-health
 name: Latent Health
-description: Latent Health is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Latent Health (branded "Latent") is an enterprise pharmacy intelligence
+  company that applies a clinical agentic engine to the medication-access workflow
+  for hospital and health-system pharmacy teams. The platform spans four stages —
+  Identify (care-gap detection, eligibility screening, site-of-care routing), Access
+  (prior authorization, clinical review, appeal generation, benefit routing, payer
+  outreach), Capture (340B eligibility auditing, leakage analytics, financial dashboards),
+  and Engage (patient outreach, queue management, outcomes analytics). It ingests
+  patient charts and EHR data, claims, payer policies, and drug labels, and is described
+  as chart-native and EHR-agnostic across Epic and Cerner. The company reports deployment
+  across 50+ health systems covering 2M+ patients annually, and raised an $80M Series
+  A led by Spark Capital and Transformation Capital. Latent Health publishes no public
+  developer portal, API reference, or SDKs as of this profile; it is an enterprise
+  platform sold to health systems, and its public surface is limited to marketing,
+  case studies, press, and a Vanta-hosted trust center.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/68114bc2c53c94882188a30e/6a36f06297e893376e163f6c_og-1-structural%20v2.png
 url: https://raw.githubusercontent.com/api-evangelist/latent-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - general-catalyst
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Health
+- Healthcare
+- Pharmacy
+- Medication Access
+- Prior Authorization
+- Artificial Intelligence
+- Clinical AI
+- Health Systems
+- 340B
+- Electronic Health Records
 apis: []
+common:
+- type: Website
+  url: https://latenthealth.com/
+- type: Blog
+  url: https://latenthealth.com/blog
+- type: Support
+  url: https://latenthealth.com/contact
+- type: TermsOfService
+  url: https://latenthealth.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://latenthealth.com/privacy-policy
+- type: TrustCenter
+  url: security/latent-health-trust-center.yml
+- type: Compliance
+  url: security/latent-health-trust-center.yml
+- type: DomainSecurity
+  url: security/latent-health-domain-security.yml
+- type: LLMsTxt
+  url: llms/latent-health-llms.txt
+- type: LinkedIn
+  url: https://www.linkedin.com/company/latent-health/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
